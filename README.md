@@ -71,8 +71,8 @@ A stored XSS attack requires patience because it could be stored for months befo
 
 Imagine that one of your classmates is an authorized admin for the site's CMS and you are not. How would you get them to visit the self-submitting, hidden form page you created in Objective #5 (CSRF)?
 
-I would hide the page as some sort of hidden popup in another webpage that this classmate just needs to click on. Something salacious. 
+- I would hide the page as some sort of hidden popup in another webpage that this classmate just needs to click on. Something salacious. 
 
 Compare session hijacking and session fixation. Which attack do you think is easier for an attacker to execute? Why? One of them is much easier to defend against than the other. Which one and why?
 
-If a website allows session IDs in their URL, a session fixation would be easier to pull off. Fixation would also be easier to defend against using session identifiers that automatically regenerate. 
+- If a website allows session IDs in their URL, a session fixation would be easier to pull off. Fixation would also be easier to defend against using session identifiers that automatically regenerate. 
